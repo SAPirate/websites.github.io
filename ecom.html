@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="ecom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+             <!-- nav -->
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="name">
+                <h1>newa Ecommerce</h1>
+                <h2>ecomShop</h2>
+            </div>
+            </div>
+            <!-- <div class="moto">
+                <h3>our pride is wat we wear to everywhere !</h3>
+                <p>holding bachelors degree in environmental science authorised from the university of venda
+                    skill</p>
+            </div> -->
+        </div>
+<!--  -->
+<div class="shop-buy">
+
+    <!--  -->
+
+<div class="shop-container">
+    <!-- gallery -->
+    <!-- <h3 class="sop">slimfits gowns</h3> -->
+    <div class="search-box">
+        <div class="row">
+            <input type="text" id="input-box" placeholder="search anything" autocomplete="off">
+            <button><i class="fa fa-search"></i></button>
+        </div>
+        <div class="result-box">
+           
+        </div>
+    </div>
+    <div class="gallery-wrap">
+       <img src="img/left.jpg" id="backBtn">
+       <div class="gallery">
+        <div class="slide">
+            <div class="product-box">
+                <img src="img/face.jpg" alt="" class="product-img" onclick="openFullImg(this.src)">
+                <!-- <div class="details"> -->
+                    <h3 class="product-title">long gowns</h3>
+                <p>xs s m l xl</p>
+                <i class="fa fa-shopping-bag add-cart" id="display" onclick="displayCount()"></i>
+                <span class="price">R500</span>
+                <!-- </div> -->
+             
+            </div>
+            <div class="product-box">
+                <img src="img/bag1.jpg" alt="" class="product-img" onclick="openFullImg(this.src)">
+                <!-- <div class="details"> -->
+                    <h3 class="product-title">trad jewellery</h3>
+                    <p>xs s m l xl</p>
+                <i class="fa fa-shopping-bag add-cart" id="display" onclick="displayCount()"></i>
+                <span class="price">R350</span>
+                <!-- </div> -->
+             
+            </div>
+            <div class="product-box">
+                <img src="img/heel1.jpg" alt="" class="product-img" onclick="openFullImg(this.src)">
+                <!-- <div class="details"> -->
+                    <h3 class="product-title">black gowns</h3>
+                    <p>xs s m l xl</p>
+                <i class="fa fa-shopping-bag add-cart" id="display" onclick="displayCount()"></i>
+                <span class="price">R500</span>
+                <!-- </div> -->
+             
+            </div>
+        </div>
+           <div class="slide">
+            <div class="full-img" id="fullImgBox">
+                <img src="image/pc2.jpg" id="fullImg">
+                <span onclick="closeFullImg()"> X</span>
+              </div>
+              <div class="product-box">
+                <img src="img/ad2.jpg" alt="" class="product-img" onclick="openFullImg(this.src)">
+                <!-- <div class="details"> -->
+                    <h3 class="product-title">office gowns</h3>
+                    <p>xs s m l xl</p>
+                <i class="fa fa-shopping-bag add-cart" id="display" onclick="displayCount()"></i>
+                <span class="price">R500</span>
+                <!-- </div> -->
+             
+            </div>
+            <div class="product-box">
+                <img src="img/heel2.jpg" alt="" class="product-img" onclick="openFullImg(this.src)">
+                <!-- <div class="details"> -->
+                    <h3 class="product-title">black heel</h3>
+                    <p>xs s m l xl</p>
+                <i class="fa fa-shopping-bag add-cart" id="display" onclick="displayCount()"></i>
+                <span class="price">R500</span>
+                <!-- </div> -->
+             
+            </div>
+            <div class="product-box">
+                <img src="img/face2.jpg" alt="" class="product-img" onclick="openFullImg(this.src)">
+                <!-- <div class="details"> -->
+                    <h3 class="product-title">makeup</h3>
+                    <p>xs s m l xl</p>
+                <i class="fa fa-shopping-bag add-cart" id="display" onclick="displayCount()"></i>
+                <span class="price">R500</span>
+                <!-- </div> -->
+             
+            </div>
+           
+           </div>
+        </div>
+       <img src="img/right.jpg" id="nextBtn">
+    </div>
+   
+    
+   </div>
+ <!-- seller -->
+ <div class="sell">
+    <div class="icon-header">
+      <p class="icon-text"><i class="fa fa-shopping-cart" id="cart-icon"></i> click icon to view your cart selects</p>
+ <div class="boc-p">
+    <p>webDesign developers offer Website hosting ,Website testing and connecting website to 
+        server database both apllication</p>
+ </div>
+ </div>
+ <div class="cart">
+     <h2 class="cart-title">Your Cart</h2>
+
+<!--cart content -->
+<div class="cart-content">
+</div> 
+<!--cart total -->
+<div class="total">
+ <div class="total-title">Total</div>
+ <div class="total-price">R0</div>
+</div>
+
+<!--cart buy button -->
+<button type="button" class="btn-buy">Buy Now</button>
+
+<!-- cart-close -->
+<i class="fa fa-times" id="close-cart"></i>
+   </div>
+     
+ </div> 
+
+</div>
+  
+
+<!--  -->
+<div class="footer">
+    <p>webDesign developers offer Website hosting ,Website testing and connecting website to 
+        server database both apllication and web application for a full designed website or server designwebDesign developers offer Website hosting ,Website testing and connecting website to 
+        server database both apllication and web application for a full designed website or server design</p>
+</div>
+</div>
+<script src="ecom.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.nav-container{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    margin: 0% 14%;
+}
+@media (max-width:500px){
+    .nav{
+        width: 100%;
+        margin: 0%;
+    }
+}
+.nav .logo img{
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+    padding-top: 1%;
+}
+.nav .small-menu {
+  margin-left: 10%;
+  width: 100%;
+  margin-top: 0%;
+}
+@media (max-width:500px){
+    .nav .small-menu{
+        margin-left: 1%;
+    }
+}
+.nav .small-menu a{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.nav .small-menu button{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(213, 94, 50);
+    border: rgb(213, 94, 50);
+    color: #ffffffff;
+    border-radius: 100px;
+    padding: 6px 20px;
+    margin-top: 1%;
+}
+
+/* wrap image content css code goes here */
+
+.wrap-container{
+    width: 100%;
+    margin-top: 4%;
+}
+.wrap-about{
+    width: 100%;
+    display: flex;
+}
+@media (max-width:500px){
+    .wrap-about{
+        display: block;
+    }
+}
+.image-class{
+    width: 50%;
+    padding: 15px;
+}
+@media (max-width:500px){
+    .image-class{
+        width: 100%;
+    }
+}
+.image-class img{
+    width: 100%;
+    height: 50vh;
+}
+.content-class{
+    width: 50%;
+    padding: 15px;
+}
+@media (max-width:500px){
+    .content-class{
+        width: 100%;
+    }
+}
+.content-section{
+    width: 100%;
+}
+.content-section h3{
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+    color: rgb(213, 94, 50);
+}
+.content-section h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 8px;
+    font-weight: 600;
+    font-family:'Roboto', sans-serif;
+    color:#222;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    margin-top: 2%; 
+}
+.content-section p{
+    margin: 2% 1%;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    color:#444;
+}
+.content-class button{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-family:'Roboto', sans-serif;
+    background-color:rgb(213, 94, 50);
+    border: rgb(213, 94, 50);
+    color: #ffffffff;
+    border-radius: 100px;
+    padding: 7px 50px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+/* food category css code goes here */
+
+.food-category{
+    width: 100%;
+    margin-top: 4%;
+}
+.header-cat h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 22px;
+    padding: 8px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color:#222;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    margin-top: 2%; 
+}
+@media (max-width:500px){
+    .header-cat h1{
+        font-size: 14px;
+        background-color: #eee;
+        font-family:'Roboto', sans-serif;
+    }
+}
+.header-cat h2{
+    font-size: 27px;
+    text-align: center;
+    font-weight: 500;
+}
+.header-cat h2 i{
+    font-size: 17px;
+    color: orangered;
+    padding: 6px;
+}
+.header-cat-two h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #444;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color: #acacac;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    margin-top: 2%; 
+}
+@media (max-width:500px){
+    .header-cat-two h1{
+        font-size: 13px;
+        border-radius: 3px;
+    }
+}
+.header-cat-two h2{
+    font-size: 27px;
+    text-align: center;
+    font-weight: 500;
+}
+.header-cat-two h2 i{
+    font-size: 17px;
+    color: orangered;
+    padding: 6px;
+}
+.shop-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(390px,auto));
+    gap:1.5rem;
+    margin: 2% 0%;
+}
+@media (max-width:500px){
+    .shop-list{
+        height: 400px;
+        overflow-y: scroll;
+    }
+}
+.shop-box{
+    /* border: 1px solid #cacdd6; */
+    margin-bottom: 1vh;
+    border-radius: 6px;
+    margin-top: 0%;
+ }
+.shop-box img{
+     width: 100%;
+     height:500px;
+     border-radius: 3px;  
+ }
+ .shop-box .drawing-logo img{
+    width: 100%;
+    height: 220px;
+ }
+ .shop-box h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color:#222;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+ .shop-box p{
+    margin: 2% 3%;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 14px;
+    color:#222;
+ }
+
